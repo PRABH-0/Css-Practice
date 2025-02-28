@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height/widht</title>
+    <style>
+        .one{
+            height: 200px;
+            width: 50%;
+            background-color: aquamarine;
+        }
+        .two{
+            background-color: rgb(249, 215, 164);
+            min-height: 200px;
+            max-width: 500px;
+        }
+        h1{
+            text-align: center;
+            color: rgb(227, 227, 227);
+        }
+        .content{
+            border: 2px solid black;
+            background-color: coral;
+            height: 100px;
+            width: 500px;
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+        .padding{
+            border: 2px solid black;
+
+            height: 200px;
+            width: 600px;
+            background-color: blueviolet;
+            margin-left: 50px;
+        }
+        .border{
+            border: 2px solid black;
+            height: 300px;
+            width: 700px;
+            background-color: cadetblue;
+            margin-left: 50px;
+        }
+        .margin{
+            border: 2px solid black;
+            height: 400px;
+            width: 800px;
+            background-color: chocolate;
+            margin-left: 20%;
+        }
+        .model{
+            height: 50px;
+            color: black;
+        }
+        .class1{
+            outline: 20px solid black;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Now i Practice Height/Width:-</h1>
+    <section class="first">
+        <div class="one">This div have 200px height 50% width</div>
+        <br><br>
+        <div class="two">This div have 200px min-height With 500px max-width</div>
+    </section>
+<br><br><br>
+    <section class="box-model">
+        <h1 class="model">Box-Model</h1>
+        <div class="margin"><h1>margin</h1>
+            <div class="border"><h1>border</h1>
+                <div class="padding"><h1>padding</h1>
+                    <div class="content"><h1>content</h1></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <section class="outline">
+        <div class="container">
+            <h2 class="class1">This Heading Have 20px Outline . basically outline is outter border of the border</h2>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* External style sheet for File_1.html */
+
+/* Selectors in css */
+
+/* univercal */
+*{
+    margin: 2vmin;
+    padding: 2vmin;
+    background-color: #a97777;
+}
+/* id  */
+#heading{
+    color: red;
+}
+/* class */
+.paragraph{
+    color: rgb(147, 165, 42);
+}
+/* group */
+h1,p{
+    background-color: aquamarine;
+}
+
+/* color in css in section 2 */
+
+.box-colors{
+    display: flex;
+
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    margin-left: 8vw;
+    border: 2px solid black;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgb(162, 76, 242);
+}
+#box3{
+    background-color: #481d1d;
+}
+#box4{
+    background-color: hsl(200, 20%, 57%);
+}

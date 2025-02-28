@@ -1,0 +1,85 @@
+<!-- Background Practice -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.heading{
+    text-align: center;
+}
+.p1{
+    padding: 2vmin;
+    background-color: aquamarine;
+}
+.image{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    background-image: url(media/pic.jpg);
+}
+.p_img{
+    margin-left: 70px;
+}
+.h_img{
+    background-image: url(media/download.jpg);
+    background-repeat: repeat-x;
+    color: white;
+    text-align: center;
+}
+.h_img_2{
+    height: 500px;
+    color: white;
+    border: 2px solid black;
+    width: 270px;
+    background-image: url(media/download\ \(1\).jpg);
+    background-repeat: repeat-y;
+}
+.h_img_3{
+    color: rgb(160, 31, 31);
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-image: url(media/download\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position:  50% 80%;
+    
+}
+#image_position{
+    display: flex;
+    gap: 5vmin;
+}
+.h_img_4{
+    background-image: url(media/download\ \(3\).jpg);
+    height: 300px;
+    width: 300px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+</style>
+<body>
+    <section>
+        <div class="container">
+            <h1 class="heading">Now Practice of Backgrounds of elements</h1>
+            <p class="p1">This is Backgrounds color Practice</p>
+            <div class="container">
+                <div class="image"></div>
+                <p class="p_img">This is background img</p>
+            </div>
+        </div>
+        <div class="container" id="image_position">
+            <h1 class="h_img">This is background-image <br>for styling with some text <br> This img also repeated himself in horizontal in repeat-x</h1>
+            <h1 class="h_img_2">This is the example for vertically background-image repeated</h1>
+            <h1 class="h_img_3">This is No-repeat img with position of img</h1>
+        </div>
+        <div class="container">
+            <h1 class="h_img_4">This is background-imagewith attchment of the image</h1>
+
+        </div>
+    </section>
+</body>
+</html>
